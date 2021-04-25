@@ -1,0 +1,39 @@
+header {
+    background-color:white;
+    color:black;
+    margin-top: 1rem;
+}
+main {
+    background-color:white;
+}
+section {
+    background-color:black;
+}
+footer {
+    background-color:white;
+    color:black;
+    margin-top: 23.5em;
+}
+a {
+    color:white;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    font-weight:bold;
+}
+body{
+    background-color: white;
+}
+h3 {
+    color: black;
+    margin-top: 8em;
+    margin-left: 10em;
+    margin-right: 10em;
+    #font-size: 1.5em;
+}
+.input-bar{
+    display: block;
+    margin-top: 2em;
+    margin-right: 25em;
+    margin-left: 25em;
+}
