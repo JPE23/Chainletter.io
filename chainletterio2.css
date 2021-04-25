@@ -12,7 +12,7 @@ section {
 footer {
     background-color:white;
     color:black;
-    margin-top: 23.5em;
+    margin-top: 20.5em;
 }
 a {
     color:white;
@@ -23,14 +23,19 @@ a {
 }
 body{
     background-color: white;
+    font-family: 'Noticia Text', Serif;
+}
+h1{
+    font-weight: bold;
 }
 h3 {
     color: black;
     margin-top: 8em;
     margin-left: 10em;
     margin-right: 10em;
-    #font-size: 1.5em;
+    font-size: 1.8em;
 }
+
 .input-bar{
     display: block;
     margin-top: 2em;
