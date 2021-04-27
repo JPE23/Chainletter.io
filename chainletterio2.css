@@ -15,8 +15,7 @@ body{
     border-bottom-right-radius: 5px;
 }
 header {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 }
 #Heading h1{
     color:#a33131;
@@ -38,15 +37,18 @@ header {
             0 4px 4px rgba(0,0,0,0.15),
             0 8px 8px rgba(0,0,0,0.10),
             0 16px 16px rgba(0,0,0,0.05);
+    margin-top: 0rem;
 }
 p{
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     text-shadow:
             0 1px 1px rgba(0,0,0,0.25),
             2px 2px rgba(0,0,0,0.20),
             0 4px 4px rgba(0,0,0,0.15),
             0 8px 8px rgba(0,0,0,0.10),
             0 16px 16px rgba(0,0,0,0.05);
+    font-weight: bold;
+    margin-top: 1.2rem;
 }
 @media screen and (min-width: 992px){
     #Headline h2{
@@ -67,7 +69,7 @@ p{
     }
 }
 .input-group.mb-3{
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     box-shadow:
             0 1px 1px rgba(0,0,0,0.25),
             0 2px 2px rgba(0,0,0,0.20),
@@ -119,10 +121,3 @@ p{
 
 
 
-#Fix responsivenessDONE
-#Add a Tweet about this button
-#Add a privacy and sponsor#WHEN MORE FOLLOWERS
-#Offer differing subscription options ie subscribe through github
-#Add a crypto ticker
-#Add socials to landing page
-#Add the word curate somewhereDONE
