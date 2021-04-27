@@ -1,46 +1,58 @@
-header {
-    color:black;
-    margin-top: 1rem;
-}
-main {
-    background-color: #f2dfce;
-}
-section {
-    background-color:black;
-}
-footer {
-    background-color:white;
-    color:black;
-    margin-top: 20.5em;
-    background-color: #f2dfce;
-}
-a {
-    color:white;
-    position: relative;
-    display: block;
-    padding: 10px 15px;
-    font-weight:bold;
-}
 body{
     background-color: white;
     font-family: 'Noticia Text', Serif;
     background-color: #f2dfce;
+    width: 100%;
+    text-align: center;
+}
+#centerContainer{
+    text-align: center;
+    margin: auto;
+    width: 500px;
+}
+.container-fluid{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+@media screen and (min-width: 992px){
+#Headline{
+    margin-top: 12rem;
+}
+}
+@media screen and (max-width: 992px){
+    #Headline{
+        margin-top: 15rem;
+    }
+}
+header {
+    margin-top: 2rem;
 }
 h1{
     font-weight: bold;
 }
-h3 {
+h2 {
     color: black;
-    margin-top: 8em;
-    margin-left: 10em;
-    margin-right: 10em;
-    font-size: 1.8em;
 }
-
-.input-bar{
-    display: block;
-    margin-top: 2em;
-    margin-right: 25em;
-    margin-left: 25em;
-    background-color: #f2dfce;
+p{
+    text-align: center;
 }
+.input-group.mb-3{
+    margin-top: 2rem;
+    box-shadow: 2px 2px 2px 0 #8b8b8b;
+    border-radius: 5px;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+    margin-left: -1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: royalblue;
+    color: white;
+}
+#Fix responsiveness
+#Add a Tweet about this button
+#Add a privacy and sponsor
+#Offer differing subscription options ie subscribe through github
+#Add a crypto ticker
+#Add socials to landing page
+#Add the word curate somewhere
