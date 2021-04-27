@@ -1,9 +1,9 @@
 body{
-    background-color: white;
     font-family: 'Noticia Text', Serif;
-    background-color: #f2dfce;
     width: 100%;
     text-align: center;
+    color: white;
+    background-color: #061735;
 }
 #centerContainer{
     text-align: center;
@@ -16,9 +16,9 @@ body{
 }
 
 @media screen and (min-width: 992px){
-#Headline{
-    margin-top: 12rem;
-}
+    #Headline{
+        margin-top: 12rem;
+    }
 }
 @media screen and (max-width: 992px){
     #Headline{
@@ -32,14 +32,15 @@ h1{
     font-weight: bold;
 }
 h2 {
-    color: black;
+    color: white;
 }
 p{
     text-align: center;
+    color: white;
 }
 .input-group.mb-3{
     margin-top: 2rem;
-    box-shadow: 2px 2px 2px 0 #8b8b8b;
+    box-shadow: 2px 2px 2px 0 #929292;
     border-radius: 5px;
 }
 .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
@@ -49,6 +50,42 @@ p{
     background-color: royalblue;
     color: white;
 }
+
+/* Split the screen in half */
+@media screen and (min-width: 992px) {
+    .split {
+        height: 100%;
+        width: 50%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;
+    }
+}
+
+/* Control the left side */
+@media screen and (min-width: 992px) {
+    .left {
+        left: 0;
+        #background-color: #3c4bac;
+        background-color: #061735;
+        color: #a33131;
+    }
+}
+/* Control the right side */
+@media screen and (min-width: 992px) {
+    .right {
+        right: 0;
+        #background-color: rgba(34, 96, 165, 0.64);
+        background-color: #a33131;
+    }
+}
+
+
+
+
+
 #Fix responsiveness
 #Add a Tweet about this button
 #Add a privacy and sponsor
