@@ -3,7 +3,7 @@ body{
     width: 100%;
     text-align: center;
     color: white;
-    background-color: #061735;
+    background-color: #0e2a5a;
 }
 #centerContainer{
     text-align: center;
@@ -14,40 +14,73 @@ body{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-
+header {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#Heading h1{
+    color:#a33131;
+    font-weight: bold!important;
+    font-size: 2.7rem;
+    text-shadow:
+            0 1px 1px rgba(0,0,0,0.25),
+            2px 2px rgba(0,0,0,0.20),
+            0 4px 4px rgba(0,0,0,0.15),
+            0 8px 8px rgba(0,0,0,0.10),
+            0 16px 16px rgba(0,0,0,0.05);
+}
+#Subheading p{
+    font-weight: bold;
+    font-size: 1rem;
+    text-shadow:
+            0 1px 1px rgba(0,0,0,0.25),
+            2px 2px rgba(0,0,0,0.20),
+            0 4px 4px rgba(0,0,0,0.15),
+            0 8px 8px rgba(0,0,0,0.10),
+            0 16px 16px rgba(0,0,0,0.05);
+}
+p{
+    font-size: 0.7rem;
+    text-shadow:
+            0 1px 1px rgba(0,0,0,0.25),
+            2px 2px rgba(0,0,0,0.20),
+            0 4px 4px rgba(0,0,0,0.15),
+            0 8px 8px rgba(0,0,0,0.10),
+            0 16px 16px rgba(0,0,0,0.05);
+}
 @media screen and (min-width: 992px){
-    #Headline{
+    #Headline h2{
         margin-top: 12rem;
+        font-size: 1.6rem;
+        text-shadow:
+                0 1px 1px rgba(0,0,0,0.25),
+                2px 2px rgba(0,0,0,0.20),
+                0 4px 4px rgba(0,0,0,0.15),
+                0 8px 8px rgba(0,0,0,0.10),
+                0 16px 16px rgba(0,0,0,0.05);
     }
 }
 @media screen and (max-width: 992px){
-    #Headline{
-        margin-top: 15rem;
+    #Headline h2{
+        margin-top: 12rem;
+        font-size: 1.6rem;
     }
-}
-header {
-    margin-top: 2rem;
-}
-h1{
-    font-weight: bold;
-}
-h2 {
-    color: white;
-}
-p{
-    text-align: center;
-    color: white;
 }
 .input-group.mb-3{
     margin-top: 2rem;
-    box-shadow: 2px 2px 2px 0 #929292;
+    box-shadow:
+            0 1px 1px rgba(0,0,0,0.25),
+            0 2px 2px rgba(0,0,0,0.20),
+            0 4px 4px rgba(0,0,0,0.15),
+            0 8px 8px rgba(0,0,0,0.10),
+            0 16px 16px rgba(0,0,0,0.05);
     border-radius: 5px;
 }
 .input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
     margin-left: -1px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    background-color: royalblue;
+    background-color: #13366f;
     color: white;
 }
 
@@ -69,8 +102,7 @@ p{
     .left {
         left: 0;
         #background-color: #3c4bac;
-        background-color: #061735;
-        color: #a33131;
+        background-color: #0e2a5a;
     }
 }
 /* Control the right side */
@@ -81,15 +113,16 @@ p{
         background-color: #a33131;
     }
 }
+.btn-outline-secondary {
+    border-color: #0e2a5a;
+}
 
 
 
-
-
-#Fix responsiveness
+#Fix responsivenessDONE
 #Add a Tweet about this button
-#Add a privacy and sponsor
+#Add a privacy and sponsor#WHEN MORE FOLLOWERS
 #Offer differing subscription options ie subscribe through github
 #Add a crypto ticker
 #Add socials to landing page
-#Add the word curate somewhere
+#Add the word curate somewhereDONE
