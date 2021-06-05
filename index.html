@@ -1,96 +1,86 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE-Edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--Custom CSS-->
-    <link rel="stylesheet" href="Main.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <title>Chainletter.io</title>
-    <!-- Add icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>.hidden{
+<head><meta charset="utf-8"><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=UA-159928137-2"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+  gtag('config', 'UA-159928137-2');
+</script><!-- Required meta tags --><meta http-equiv="X-UA-Compatible" content="IE-Edge"><meta name="viewport" content="width=device-width, initial-scale=1"><!--Custom CSS-->
+	<link href="Main.css" rel="stylesheet" />
+	<link href="https://fonts.gstatic.com" rel="preconnect" />
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&amp;display=swap" rel="stylesheet" />
+	<link href="https://fonts.gstatic.com" rel="preconnect" />
+	<!--Bootstrap CSS-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<title>Chainletter.io</title>
+	<!-- Add icons-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+	<style type="text/css">.hidden{
         display: none;
-    }</style>
+    }
+	</style>
 </head>
 <body>
 <section>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container" id="navMenu">
-            <a class="nav navbar-brand"></a>
-            <img src="chainletter.io.svg" height="70" class="d-inline-block align-top"/>
-            <span class="hidden">Chainletter.io</span>
-                <ul class="nav navbar-nav mr-auto text-center">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a class="nav-link" href="Privacy.html">Privacy Policy</a></li>
-                    <li><a class="nav-link" href="#">Previous Issues</a></li>
-                </ul>
-            </div>
-            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvas1"
-                    aria-controls="offcanvasExample"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation">
-                <i class="fa fa-bars" aria-hidden="true"></i>
-            </button>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas1">
-                <div class="offcanvas-header">
-                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <div><li class="active"
-                             id="offcanvasActive"><a href="index.html">
-                        Home</a></li>
-                        <li><a class="nav-link" href="Privacy.html">Privacy
-                            Policy</a></li>
-                        <li><a class="nav-link" href="#">Previous Issues</a></li>
-                    </div>
-                </div>
-            </div>
-    </nav>
-    <div class="container" id="container-1">
-    <div class="row">
-        <div class="container" id="writing">
-            <div class="col-md">
-                <h1>Daily Blockchain Digest</h1>
-                <p>Subscribe (free) now to receive a daily curation of the
-                    latest blockchain and cryptocurrency related news, insights and
-                    data direct to your inbox</p>
-                <div id="revue-embed">
-                    <form action="https://www.getrevue.co/profile/chainletterio/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
-                        <div class="revue-form-group">
-                            <input class="revue-form-field" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
-                        </div>
-                        <div class="revue-form-group">
-                            <div class="revue-form-actions">
-                                <button type="button" value="Subscribe"
-                                    name="member[subscribe]"
-                                    id="member_submit">Subscribe</button>
-                            </div>
-                        </div>
-                    </form>
-                    <div class="social-icons">
-                        <!-- Add font awesome icons -->
-                        <a href="https://twitter.com/chainletter_io" class="fa fa-twitter"></a>
-                        <!--a href="#" class="fa fa-github"></a-->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md" id="imagePhone">
-            <img src="mobile-device.png" id="mobile-device">
-        </div>
-    </div>
+<nav class="navbar navbar-expand-lg navbar-light">
+<div class="container" id="navMenu"> <img class="d-inline-block align-top" height="70" src="chainletter.io.svg" /> <span class="hidden">Chainletter.io</span>
+<ul class="nav navbar-nav mr-auto text-center">
+	<li class="active"><a href="index.html">Home</a></li>
+	<li><a class="nav-link" href="Privacy.html">Privacy Policy</a></li>
+	<li><a class="nav-link" href="https://www.getrevue.co/profile/chainletterio?utm_campaign=Issue&amp;utm_content=topprofilename&amp;utm_medium=email&amp;utm_source=Daily+Blockchain+Digest#archive">Previous Issues</a></li>
+</ul>
+</div>
+    <button class="navbar-toggler ms-auto" 
+    type="button" 
+    data-bs-toggle="offcanvas" 
+    data-bs-target="#offcanvas1" 
+    aria-controls="offcanvasExample" 
+    aria-expanded="false" 
+    aria-label="Toggle navigation" >
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </button>
+    <div class="offcanvas offcanvas-start" id="offcanvas1" tabindex="-1">
+<div class="offcanvas-header"><button aria-label="Close" class="btn-close text-reset" data-bs-dismiss="offcanvas" type="button"></button></div>
+
+<div class="offcanvas-body">
+<div>
+<ul>
+	<li class="active" id="offcanvasActive"><a href="index.html">Home</a></li>
+	<li><a class="nav-link" href="Privacy.html">Privacy Policy</a></li>
+	<li><a class="nav-link" href="#">Previous Issues</a></li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div class="container" id="container-1">
+<div class="row">
+<div class="container" id="writing">
+<div class="col-md">
+<h1>Daily Blockchain Digest</h1>
+
+<p>Subscribe (free) now to receive a daily curation of the latest blockchain and cryptocurrency related news, insights and data direct to your inbox</p>
+
+<div id="revue-embed">
+<form action="https://www.getrevue.co/profile/chainletterio/add_subscriber" id="revue-form" method="post" name="revue-form" target="_blank">
+<div class="revue-form-group"><input class="revue-form-field" id="member_email" name="member[email]" placeholder="Your email address..." type="email" /></div>
+
+<div class="revue-form-group">
+<div class="revue-form-actions"><input id="member_submit" name="member[subscribe]" type="submit" value="Subscribe" /></div>
+</div>
+</form>
+
+<div class="social-icons"><!-- Add font awesome icons --><!--a href="#" class="fa fa-github"></a--></div>
+</div>
+</div>
+</div>
+
+<div class="col-md" id="imagePhone"><img id="mobile-device" src="mobile-device.png" /></div>
+</div>
 </div>
 </section>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
