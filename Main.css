@@ -44,7 +44,6 @@ section{
 @media (min-width: 375px) and (max-width: 992px){
     .d-inline-block {
         position: relative;
-        #width: 70vw;
         margin-top: -1vh;
     }
 }
@@ -94,7 +93,6 @@ nav .navbar-nav{
 @media (min-width: 375px){
     .navbar-light .navbar-toggler {
         position:relative;
-        left: 5vw;
     }
 }
 @media (min-width: 1200px){
@@ -114,6 +112,11 @@ nav .navbar-nav{
 }
 .fa-bars{
     position: relative;
+}
+@media (min-width: 768px){
+    .fa-bars{
+        left: 15vw;
+    }
 }
 .offcanvas-start{
     width: 200px!important;
@@ -136,9 +139,10 @@ li{
     flex-wrap: inherit!important;
     --bs-gutter-x: 0!important;
 }
-@media (max-width: 767px){
+@media (max-width: 991px){
     #container-1{
         padding: 0;
+        max-width: 100vw;
     }
 }
 #writing{
@@ -162,7 +166,7 @@ li{
     margin-left: -3rem;
     margin-right: -3rem;
 }
-@media (max-width: 767px){
+@media (max-width:991.98px){
     #writing h1{
         margin-right: 0;
         margin-left: 0;
@@ -174,6 +178,7 @@ li{
         margin-left: 0;
         font-size: 0.8rem;
         line-height: 1.3rem;
+        margin-bottom: 10vh;
     }
 }
 #mobile-device{
@@ -221,18 +226,20 @@ form{
     border-right-style: none;
     border-width: 1px;
     border-color: black;
+    font-size: 1.4rem;
 }
 @media (max-width: 991.99px){
     .revue-form-field{
-        min-height: 5vh;
+        min-height: 10vh;
         -webkit-appearance: none!important;
         -moz-appearance: none!important;
-        width: 66.5vw;
+        width: 90vw;
         border-top-style: solid;
         border-right-style: solid;
         border-left-style: solid;
         border-bottom-style: none;
-        border-radius: 5px 5px 0px 0px;
+        border-radius: 9px 9px 0px 0px;
+        text-align: center;
     }
 }
 [type=button], [type=reset], [type=submit], button{
@@ -252,17 +259,18 @@ form{
     border-bottom-style: solid;
     border-left-style: none;
     border-color: black;
+ 
 }
 @media (max-width: 991.99px){
     [type=button], [type=reset], [type=submit], button {
         -webkit-appearance: none!important;
         -moz-appearance: none!important;
-        min-height: 5vh;
-        font-size: 0.9rem;
-        width: 66.5vw;
+        min-height: 10vh;
+        font-size: 1.4rem;
+        width: 90vw;
         border-top-right-radius: 0;
-        border-bottom-right-radius: 5px;
-        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 9px;
+        border-bottom-left-radius: 9px;
         border-width: 1px;
         border-top-style: none;
         border-bottom-style: solid;
@@ -272,9 +280,10 @@ form{
     }
 }
 .social-icons{
-    margin-top: 2rem;
     display: flex;
     justify-content: center;
+    position:relative;
+    top: 5vh;
 }
 .fa-twitter {
     background: #55acee;
